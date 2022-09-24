@@ -12,7 +12,7 @@ namespace Skatteberegner
         public double SkatVedJulegave(double julegave, double andenGave)
         {
             if (julegave + andenGave > 1200)
-            {
+            { 
                 return andenGave + (julegave > 900 ? julegave: 0);
             }
             return 0;
